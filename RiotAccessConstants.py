@@ -22,6 +22,10 @@ URL = {'base': 'https://{region}.api.riotgames.com/{url}?api_key={api_key}',
 		#champion-v3
 		'champion_rotations': 'lol/platform/v3/champion-rotations',
 
+		#champion-mastery-v4
+		'champion_mastery_by_summoner': 'lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}',
+		'champion_mastery_by_summoner_champion': 'lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}/by-champion/{championId}',
+		'scores_by_summoner': 'lol/champion-mastery/v4/scores/by-summoner/{encryptedSummonerId}',
 
 		#summoner-v4
 		'summoner_by_name': 'lol/summoner/v4/summoners/by-name/{summonerName}',
